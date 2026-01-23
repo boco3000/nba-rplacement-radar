@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+# Jupyter
+.ipynb_checkpoints/
+# Data (do NOT commit raw datasets)
+data/raw/
+data/cache/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
