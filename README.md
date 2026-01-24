@@ -27,6 +27,16 @@ Built from local box score data (no live API dependency due to unstableness).
 - Does not account for opponent strength or lineup combinations
 - Sample sizes vary significantly by team and player
 
+- ### Data
+
+Raw box score data is not included in this repository.
+
+To run the analysis:
+- Place per-game NBA box score data for the 2024–25 season into `data/raw/`
+- Data must include player name, team, game ID/date, minutes, points, rebounds, and assists
+
+All analysis notebooks read from this directory.
+
 ## Repo structure
 - `notebooks/` — analysis and development notebooks
 - `data/reports/` — generated outputs (CSV/HTML)
