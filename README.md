@@ -8,6 +8,18 @@ Built from local box score data (no live API dependency due to unstableness).
 - Ranks likely beneficiaries when a star is absent
 - Exports CSV + HTML reports
 
+- ## Why this matters
+
+When a high-usage player is out, box score opportunities don’t distribute evenly.
+This project identifies *which teammates actually absorb that usage* rather than
+assuming next-man-up minutes.
+
+This is useful for:
+- DFS / prop research
+- Fantasy streaming decisions
+- Injury impact analysis
+- Sports analytics portfolio demonstrations
+
 - ## Approach
 
 - Uses per-game box score data for the 2024–25 NBA season
@@ -47,3 +59,11 @@ All analysis notebooks read from this directory.
 2. Install deps:
    ```bash
    pip install pandas numpy matplotlib
+
+## Possible extensions
+- Add usage rate and shot attempt weighting
+- Adjust for pace and opponent defensive rating
+- Visualize role changes over time
+- Apply the same framework to other leagues (WNBA, EuroLeague)
+- Adapt logic for esports (e.g., Valorant role replacement analysis)
+
