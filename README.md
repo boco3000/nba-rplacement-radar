@@ -8,7 +8,7 @@ Built from local box score data (no live API dependency due to unstableness).
 - Ranks likely beneficiaries when a star is absent
 - Exports CSV + HTML reports
 
-- ## Why this matters
+## Why this matters
 
 When a high-usage player is out, box score opportunities don’t distribute evenly.
 This project identifies *which teammates actually absorb that usage* rather than
@@ -20,7 +20,7 @@ This is useful for:
 - Injury impact analysis
 - Sports analytics portfolio demonstrations
 
-- ## Approach
+## Approach
 
 - Uses per-game box score data for the 2024–25 NBA season
 - Identifies games where a high-usage player (“star”) did not play
@@ -28,18 +28,18 @@ This is useful for:
 - Computes deltas across minutes, points, rebounds, and assists
 - Applies minimum game thresholds to reduce noise
 
-- ## Example Insights
+## Example Insights
 
 - Some guards show meaningful increases in assists and minutes when a primary ball-handler is out, but these effects often disappear under stricter sample thresholds.
 - Apparent “replacement spikes” for end-of-bench players are common in small samples, reinforcing the importance of minimum game filters.
 
-- ## Limitations
+## Limitations
 
 - Player absence is inferred from game participation only (no injury timing granularity)
 - Does not account for opponent strength or lineup combinations
 - Sample sizes vary significantly by team and player
 
-- ### Data
+### Data
 
 Raw box score data is not included in this repository.
 
