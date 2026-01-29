@@ -67,3 +67,9 @@ All analysis notebooks read from this directory.
 - Apply the same framework to other leagues (WNBA, EuroLeague)
 - Adapt logic for esports (e.g., Valorant role replacement analysis)
 
+  Day 10: league replacement radar end-to-end pipeline
+
+- Canonical data loader with team + player normalization
+- League-wide star on/off teammate impact metrics
+- Deterministic CSV output for 2024–25 season
+
