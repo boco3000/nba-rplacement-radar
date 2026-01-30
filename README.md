@@ -73,3 +73,13 @@ All analysis notebooks read from this directory.
 - League-wide star on/off teammate impact metrics
 - Deterministic CSV output for 2024–25 season
 
+### Day 11 – Validation
+
+The league replacement radar was validated with:
+- Directional checks (minutes and points increase when stars are absent)
+- Sample-size flagging to reduce noise
+- Manual inspection of top beneficiaries for plausibility
+
+This confirms the pipeline is directionally sound, not just executable.
+
+
