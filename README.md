@@ -82,4 +82,10 @@ The league replacement radar was validated with:
 
 This confirms the pipeline is directionally sound, not just executable.
 
+### Day 12: Hardened league replacement radar
+- Deterministic NaN-safe scoring
+- Single source of truth in src/
+- End-to-end validation and clean reruns
+
+
 
