@@ -1,0 +1,1 @@
+Python powershell command to get into nba tool
