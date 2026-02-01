@@ -87,5 +87,21 @@ This confirms the pipeline is directionally sound, not just executable.
 - Single source of truth in src/
 - End-to-end validation and clean reruns
 
+### Day 14: CLI Pipeline + Deterministic Outputs
+
+- Added a runnable CLI script to generate the league replacement radar end-to-end
+- Ensured `src/` is import-safe for script execution (no notebook-only assumptions)
+- Script outputs:
+  - Full league replacement radar CSV
+  - Top-K replacements per star CSV
+- Verified deterministic outputs via repeated runs and file hashing
+- Validated saved CSVs reload cleanly with no missing scores
+
+**Key script:**
+- `scripts/run_league_radar.py`
+
+This enables fully reproducible, notebook-free generation of core analytics artifacts.
+
+
 
 
